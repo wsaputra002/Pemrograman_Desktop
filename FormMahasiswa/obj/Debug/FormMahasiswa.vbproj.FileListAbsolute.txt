@@ -8,3 +8,4 @@ c:\users\sandi syaputra\documents\visual studio 2013\Projects\FormMahasiswa\Form
 c:\users\sandi syaputra\documents\visual studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.exe
 c:\users\sandi syaputra\documents\visual studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.xml
 c:\users\sandi syaputra\documents\visual studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.pdb
+C:\Users\SANDI SYAPUTRA\documents\visual studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.Form2.resources
