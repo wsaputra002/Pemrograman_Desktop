@@ -31,4 +31,7 @@
                         MessageBoxIcon.Information)
     End Sub
 
+    Private Sub txtnip_TextChanged(sender As Object, e As EventArgs) Handles txtnip.TextChanged
+
+    End Sub
 End Class

@@ -9,3 +9,14 @@ c:\users\sandi syaputra\documents\visual studio 2013\Projects\FormMahasiswa\Form
 c:\users\sandi syaputra\documents\visual studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.xml
 c:\users\sandi syaputra\documents\visual studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.pdb
 C:\Users\SANDI SYAPUTRA\documents\visual studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.Form2.resources
+C:\Vb net\FormMahasiswa\FormMahasiswa\bin\Debug\FormMahasiswa.exe.config
+C:\Vb net\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.exe
+C:\Vb net\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.xml
+C:\Vb net\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.pdb
+C:\Vb net\FormMahasiswa\FormMahasiswa\bin\Debug\FormMahasiswa.exe
+C:\Vb net\FormMahasiswa\FormMahasiswa\bin\Debug\FormMahasiswa.pdb
+C:\Vb net\FormMahasiswa\FormMahasiswa\bin\Debug\FormMahasiswa.xml
+C:\Vb net\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.Form1.resources
+C:\Vb net\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.Form2.resources
+C:\Vb net\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.Resources.resources
+C:\Vb net\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.vbproj.GenerateResource.Cache

@@ -73,7 +73,7 @@ Partial Class Form1
         '
         Me.txtnip.Location = New System.Drawing.Point(115, 24)
         Me.txtnip.Name = "txtnip"
-        Me.txtnip.Size = New System.Drawing.Size(179, 22)
+        Me.txtnip.Size = New System.Drawing.Size(251, 22)
         Me.txtnip.TabIndex = 4
         '
         'txtnama
@@ -87,9 +87,9 @@ Partial Class Form1
         '
         Me.cbfakultas.FormattingEnabled = True
         Me.cbfakultas.Items.AddRange(New Object() {"FMIPA", "FKIP", "FEB"})
-        Me.cbfakultas.Location = New System.Drawing.Point(115, 90)
+        Me.cbfakultas.Location = New System.Drawing.Point(115, 97)
         Me.cbfakultas.Name = "cbfakultas"
-        Me.cbfakultas.Size = New System.Drawing.Size(179, 24)
+        Me.cbfakultas.Size = New System.Drawing.Size(251, 24)
         Me.cbfakultas.TabIndex = 6
         '
         'cbjurusan
@@ -98,12 +98,12 @@ Partial Class Form1
         Me.cbjurusan.Items.AddRange(New Object() {"MATEMATIKA", "KIMIA", "BIOLOGI", "FISIKA", "ILMU KOMPUTER"})
         Me.cbjurusan.Location = New System.Drawing.Point(115, 133)
         Me.cbjurusan.Name = "cbjurusan"
-        Me.cbjurusan.Size = New System.Drawing.Size(179, 24)
+        Me.cbjurusan.Size = New System.Drawing.Size(251, 24)
         Me.cbjurusan.TabIndex = 7
         '
         'btnprocess
         '
-        Me.btnprocess.Location = New System.Drawing.Point(115, 189)
+        Me.btnprocess.Location = New System.Drawing.Point(41, 187)
         Me.btnprocess.Name = "btnprocess"
         Me.btnprocess.Size = New System.Drawing.Size(75, 23)
         Me.btnprocess.TabIndex = 8
