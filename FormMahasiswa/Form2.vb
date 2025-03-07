@@ -3,10 +3,8 @@
     Private Sub btnprocess_Click(sender As Object, e As EventArgs) Handles btnprocess.Click
         Dim nip As Long
         If Not Long.TryParse(txtnip.Text.Trim(), nip) Then
-            MessageBox.Show("NIP harus berupa angka!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Exit Sub
         End If
-
         Dim nama As String = txtnama.Text.Trim()
         Dim fakultas As String = cbfakultas.Text.Trim()
         Dim jurusan As String = cbjurusan.Text.Trim()
@@ -31,4 +29,11 @@
                         MessageBoxIcon.Information)
     End Sub
 
+    Private Sub txtnip_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtnip.KeyPress
+        If Asc(e.KeyChar) <> 8 Then
+            If Asc(e.KeyChar) < 48 Or Asc(e.KeyChar) > 57 Then
+                e.Handled = True
+            End If
+        End If
+    End Sub
 End Class
