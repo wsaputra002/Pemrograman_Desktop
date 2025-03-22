@@ -1,26 +1,25 @@
 ﻿Public Class Form2
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        cbfakultas.Items.Add("FMIPA")
-        cbfakultas.Items.Add("FKIP")
-        cbfakultas.Items.Add("FEB")
+        cbjurusan.Items.Add("Manajemen Informatika")
+        cbjurusan.Items.Add("Ilmu Komputer")
+        cbjurusan.Items.Add("Sistem Informasi")
     End Sub
 
-    Private Sub cbfakultas_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbfakultas.SelectedIndexChanged
-        Dim fakultas As String = cbfakultas.SelectedItem
-        cbjurusan.Items.Clear()
+    Private Sub cbfakultas_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbjurusan.SelectedIndexChanged
+        Dim fakultas As String = cbjurusan.SelectedItem
+        cbmatkul.Items.Clear()
         Select Case (fakultas)
-            Case "FMIPA"
-                cbjurusan.Items.Add("Sistem Informasi")
-                cbjurusan.Items.Add("Manajemen Informatika")
-                cbjurusan.Items.Add("Ilmu Komputer")
-            Case "FKIP"
-                cbjurusan.Items.Add("Pendidikan Teknologi Informasi")
-                cbjurusan.Items.Add("Pendidikan Jasmani")
-            Case "FEB"
-                cbjurusan.Items.Add("Manajemen")
-                cbjurusan.Items.Add("Perbankan")
-                cbjurusan.Items.Add("Akuntansi")
+            Case "Manajemen Informatika"
+                cbmatkul.Items.Add("Pemrograman Desktop")
+                cbmatkul.Items.Add("Pemrograman WEB Lanjut")
+                cbmatkul.Items.Add("Keamanan Sistem Informasi")
+            Case "Ilmu Komputer"
+                cbmatkul.Items.Add("Kecerdasan Buatan")
+                cbmatkul.Items.Add("Aljabar Linear")
+            Case "Sistem Informasi"
+                cbmatkul.Items.Add("Pemrograman Web")
+                cbmatkul.Items.Add("PBO")
         End Select
     End Sub
 
@@ -53,7 +52,7 @@
 
             lblgrade.Text = " " & grade
         Else
-            lblgrade.Text = " ... "
+            lblgrade.Text = " -GRADE- "
         End If
     End Sub
 
@@ -72,18 +71,20 @@
     Private Sub btnnew_Click(sender As Object, e As EventArgs) Handles btnnew.Click
         txtnip.Clear()
         txtnama.Clear()
-        cbfakultas.SelectedIndex = -1
         cbjurusan.SelectedIndex = -1
+        cbmatkul.SelectedIndex = -1
         txttugas.Clear()
         txtuts.Clear()
         txtuas.Clear()
         lblgrade.Text = " -GRADE- "
         txtnip.Enabled = True
         txtnip.Focus()
+        rbL.Checked = False
+        rbP.Checked = False
     End Sub
 
     Private Sub btnsave_Click(sender As Object, e As EventArgs) Handles btnsave.Click
-        If txtnip.Text = "" Or txtnama.Text = "" Or cbjurusan.Text = "" Then
+        If txtnip.Text = "" Or txtnama.Text = "" Or cbmatkul.Text = "" Or (Not rbL.Checked And Not rbP.Checked) Then
             MessageBox.Show("Harap isi semua data!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Exit Sub
         End If
@@ -97,13 +98,18 @@
         Next
 
         If rowIndex = -1 Then
-            dgvdata.Rows.Add(txtnip.Text, txtnama.Text, If(rbL.Checked, "Laki-Laki", "Perempuan"), cbjurusan.Text, "Mata Kuliah", lblgrade.Text)
+            dgvdata.Rows.Add(txtnip.Text, txtnama.Text, If(rbL.Checked, "Laki-Laki", "Perempuan"), cbjurusan.Text, cbmatkul.Text, lblgrade.Text)
         Else
-            dgvdata.Rows(rowIndex).SetValues(txtnip.Text, txtnama.Text, If(rbL.Checked, "Laki-Laki", "Perempuan"), cbjurusan.Text, "Mata Kuliah", lblgrade.Text)
+            dgvdata.Rows(rowIndex).Cells("dgnip").Value = txtnip.Text
+            dgvdata.Rows(rowIndex).Cells("dgnama").Value = txtnama.Text
+            dgvdata.Rows(rowIndex).Cells("dgjeniskelamin").Value = If(rbL.Checked, "Laki-Laki", "Perempuan")
+            dgvdata.Rows(rowIndex).Cells("dgjurusan").Value = cbjurusan.Text
+            dgvdata.Rows(rowIndex).Cells("dgmatkul").Value = cbmatkul.Text
+            dgvdata.Rows(rowIndex).Cells("dggrade").Value = lblgrade.Text
         End If
-
         btnnew.PerformClick()
     End Sub
+
 
     Private Sub btndelete_Click(sender As Object, e As EventArgs) Handles btndelete.Click
         If dgvdata.SelectedRows.Count > 0 Then
@@ -121,18 +127,24 @@
         Me.Close()
     End Sub
 
-    Private Sub dgvdata_SelectionChanged(sender As Object, e As EventArgs) Handles dgvdata.SelectionChanged
-        If dgvdata.SelectedRows.Count > 0 Then
-            Dim row As DataGridViewRow = dgvdata.SelectedRows(0)
+    Private Sub dgvdata_CellDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvdata.CellDoubleClick
+        If e.RowIndex >= 0 AndAlso e.ColumnIndex >= 0 Then
+            Dim row As DataGridViewRow = dgvdata.Rows(e.RowIndex)
+
             txtnip.Text = row.Cells("dgnip").Value.ToString()
             txtnama.Text = row.Cells("dgnama").Value.ToString()
+
             If row.Cells("dgjeniskelamin").Value.ToString() = "Laki-Laki" Then
                 rbL.Checked = True
             Else
                 rbP.Checked = True
             End If
+
             cbjurusan.Text = row.Cells("dgjurusan").Value.ToString()
+            cbmatkul.Text = row.Cells("dgmatkul").Value.ToString()
             lblgrade.Text = row.Cells("dggrade").Value.ToString()
+
+            'disable nip saat klik dua kali pada data grid view
             txtnip.Enabled = False
         End If
     End Sub
