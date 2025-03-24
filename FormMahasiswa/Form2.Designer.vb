@@ -65,86 +65,86 @@ Partial Class Form2
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(20, 12)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(26, 17)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(44, 25)
+        Me.Label1.Size = New System.Drawing.Size(33, 17)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "NIP"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(20, 66)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(26, 58)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(64, 25)
+        Me.Label2.Size = New System.Drawing.Size(49, 17)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Nama"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(20, 115)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(26, 101)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(135, 25)
+        Me.Label3.Size = New System.Drawing.Size(108, 17)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Jenis Kelamin"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(20, 228)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(26, 179)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(138, 29)
+        Me.Label4.Size = New System.Drawing.Size(93, 17)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Mata Kuliah"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(20, 168)
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(26, 139)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(97, 29)
+        Me.Label5.Size = New System.Drawing.Size(66, 17)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Jurusan"
         '
         'btnprocess
         '
         Me.btnprocess.Enabled = False
-        Me.btnprocess.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnprocess.Location = New System.Drawing.Point(653, 110)
+        Me.btnprocess.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnprocess.Location = New System.Drawing.Point(580, 101)
         Me.btnprocess.Name = "btnprocess"
-        Me.btnprocess.Size = New System.Drawing.Size(245, 34)
+        Me.btnprocess.Size = New System.Drawing.Size(99, 26)
         Me.btnprocess.TabIndex = 5
         Me.btnprocess.UseVisualStyleBackColor = True
         '
         'txtnip
         '
-        Me.txtnip.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtnip.Location = New System.Drawing.Point(164, 6)
+        Me.txtnip.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtnip.Location = New System.Drawing.Point(164, 14)
         Me.txtnip.Name = "txtnip"
-        Me.txtnip.Size = New System.Drawing.Size(734, 34)
+        Me.txtnip.Size = New System.Drawing.Size(515, 22)
         Me.txtnip.TabIndex = 6
         '
         'txtnama
         '
-        Me.txtnama.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtnama.Location = New System.Drawing.Point(164, 60)
+        Me.txtnama.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtnama.Location = New System.Drawing.Point(164, 55)
         Me.txtnama.Name = "txtnama"
-        Me.txtnama.Size = New System.Drawing.Size(734, 34)
+        Me.txtnama.Size = New System.Drawing.Size(515, 22)
         Me.txtnama.TabIndex = 7
         '
         'rbL
         '
         Me.rbL.AutoSize = True
-        Me.rbL.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rbL.Location = New System.Drawing.Point(209, 115)
+        Me.rbL.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rbL.Location = New System.Drawing.Point(165, 101)
         Me.rbL.Name = "rbL"
-        Me.rbL.Size = New System.Drawing.Size(98, 24)
+        Me.rbL.Size = New System.Drawing.Size(86, 21)
         Me.rbL.TabIndex = 8
         Me.rbL.TabStop = True
         Me.rbL.Text = "Laki-Laki"
@@ -153,10 +153,10 @@ Partial Class Form2
         'rbP
         '
         Me.rbP.AutoSize = True
-        Me.rbP.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rbP.Location = New System.Drawing.Point(384, 115)
+        Me.rbP.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rbP.Location = New System.Drawing.Point(294, 101)
         Me.rbP.Name = "rbP"
-        Me.rbP.Size = New System.Drawing.Size(115, 24)
+        Me.rbP.Size = New System.Drawing.Size(102, 21)
         Me.rbP.TabIndex = 9
         Me.rbP.TabStop = True
         Me.rbP.Text = "Perempuan"
@@ -165,21 +165,21 @@ Partial Class Form2
         'cbjurusan
         '
         Me.cbjurusan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cbjurusan.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbjurusan.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbjurusan.FormattingEnabled = True
-        Me.cbjurusan.Location = New System.Drawing.Point(164, 165)
+        Me.cbjurusan.Location = New System.Drawing.Point(165, 139)
         Me.cbjurusan.Name = "cbjurusan"
-        Me.cbjurusan.Size = New System.Drawing.Size(734, 37)
+        Me.cbjurusan.Size = New System.Drawing.Size(514, 24)
         Me.cbjurusan.TabIndex = 10
         '
         'cbmatkul
         '
         Me.cbmatkul.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cbmatkul.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbmatkul.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbmatkul.FormattingEnabled = True
-        Me.cbmatkul.Location = New System.Drawing.Point(164, 225)
+        Me.cbmatkul.Location = New System.Drawing.Point(164, 179)
         Me.cbmatkul.Name = "cbmatkul"
-        Me.cbmatkul.Size = New System.Drawing.Size(734, 37)
+        Me.cbmatkul.Size = New System.Drawing.Size(515, 24)
         Me.cbmatkul.TabIndex = 11
         '
         'Panel1
@@ -206,23 +206,23 @@ Partial Class Form2
         Me.Panel1.Controls.Add(Me.txtnip)
         Me.Panel1.Location = New System.Drawing.Point(13, 22)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(903, 337)
+        Me.Panel1.Size = New System.Drawing.Size(953, 292)
         Me.Panel1.TabIndex = 12
         '
         'lblgrade
         '
         Me.lblgrade.AutoSize = True
-        Me.lblgrade.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblgrade.Location = New System.Drawing.Point(647, 288)
+        Me.lblgrade.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblgrade.Location = New System.Drawing.Point(595, 225)
         Me.lblgrade.Name = "lblgrade"
-        Me.lblgrade.Size = New System.Drawing.Size(100, 20)
+        Me.lblgrade.Size = New System.Drawing.Size(84, 17)
         Me.lblgrade.TabIndex = 19
         Me.lblgrade.Text = "- GRADE -"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(463, 287)
+        Me.Label9.Location = New System.Drawing.Point(463, 224)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(36, 17)
         Me.Label9.TabIndex = 18
@@ -231,7 +231,7 @@ Partial Class Form2
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(300, 287)
+        Me.Label8.Location = New System.Drawing.Point(316, 224)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(36, 17)
         Me.Label8.TabIndex = 17
@@ -240,7 +240,7 @@ Partial Class Form2
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(121, 289)
+        Me.Label7.Location = New System.Drawing.Point(162, 222)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(48, 17)
         Me.Label7.TabIndex = 16
@@ -248,41 +248,43 @@ Partial Class Form2
         '
         'txttugas
         '
-        Me.txttugas.Location = New System.Drawing.Point(175, 284)
+        Me.txttugas.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txttugas.Location = New System.Drawing.Point(216, 219)
         Me.txttugas.Name = "txttugas"
-        Me.txttugas.Size = New System.Drawing.Size(119, 22)
+        Me.txttugas.Size = New System.Drawing.Size(76, 22)
         Me.txttugas.TabIndex = 13
         '
         'txtuts
         '
-        Me.txtuts.Location = New System.Drawing.Point(342, 284)
+        Me.txtuts.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtuts.Location = New System.Drawing.Point(358, 221)
         Me.txtuts.Name = "txtuts"
-        Me.txtuts.Size = New System.Drawing.Size(115, 22)
+        Me.txtuts.Size = New System.Drawing.Size(76, 22)
         Me.txtuts.TabIndex = 14
         '
         'txtuas
         '
-        Me.txtuas.Location = New System.Drawing.Point(505, 284)
+        Me.txtuas.Location = New System.Drawing.Point(505, 222)
         Me.txtuas.Name = "txtuas"
-        Me.txtuas.Size = New System.Drawing.Size(122, 22)
+        Me.txtuas.Size = New System.Drawing.Size(73, 22)
         Me.txtuas.TabIndex = 15
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(20, 284)
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(26, 222)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(49, 25)
+        Me.Label6.Size = New System.Drawing.Size(40, 17)
         Me.Label6.TabIndex = 12
         Me.Label6.Text = "Nilai"
         '
         'Panel2
         '
         Me.Panel2.Controls.Add(Me.dgvdata)
-        Me.Panel2.Location = New System.Drawing.Point(12, 440)
+        Me.Panel2.Location = New System.Drawing.Point(13, 385)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(904, 153)
+        Me.Panel2.Size = New System.Drawing.Size(953, 167)
         Me.Panel2.TabIndex = 13
         '
         'dgvdata
@@ -291,11 +293,11 @@ Partial Class Form2
         Me.dgvdata.AllowUserToDeleteRows = False
         Me.dgvdata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvdata.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.dgnip, Me.dgnama, Me.dgjeniskelamin, Me.dgjurusan, Me.dgmatkul, Me.dggrade})
-        Me.dgvdata.Location = New System.Drawing.Point(3, 3)
+        Me.dgvdata.Location = New System.Drawing.Point(29, 3)
         Me.dgvdata.Name = "dgvdata"
         Me.dgvdata.ReadOnly = True
         Me.dgvdata.RowTemplate.Height = 24
-        Me.dgvdata.Size = New System.Drawing.Size(896, 147)
+        Me.dgvdata.Size = New System.Drawing.Size(904, 147)
         Me.dgvdata.TabIndex = 4
         '
         'Panel3
@@ -304,9 +306,9 @@ Partial Class Form2
         Me.Panel3.Controls.Add(Me.btndelete)
         Me.Panel3.Controls.Add(Me.btnsave)
         Me.Panel3.Controls.Add(Me.btnnew)
-        Me.Panel3.Location = New System.Drawing.Point(12, 365)
+        Me.Panel3.Location = New System.Drawing.Point(12, 320)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(904, 59)
+        Me.Panel3.Size = New System.Drawing.Size(954, 59)
         Me.Panel3.TabIndex = 0
         '
         'btnclose
@@ -315,7 +317,7 @@ Partial Class Form2
         Me.btnclose.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnclose.Location = New System.Drawing.Point(506, 16)
         Me.btnclose.Name = "btnclose"
-        Me.btnclose.Size = New System.Drawing.Size(393, 30)
+        Me.btnclose.Size = New System.Drawing.Size(279, 30)
         Me.btnclose.TabIndex = 3
         Me.btnclose.Text = "Close"
         Me.btnclose.UseVisualStyleBackColor = False
@@ -325,7 +327,7 @@ Partial Class Form2
         Me.btndelete.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btndelete.Location = New System.Drawing.Point(288, 16)
         Me.btndelete.Name = "btndelete"
-        Me.btndelete.Size = New System.Drawing.Size(212, 30)
+        Me.btndelete.Size = New System.Drawing.Size(201, 30)
         Me.btndelete.TabIndex = 2
         Me.btndelete.Text = "Delete"
         Me.btndelete.UseVisualStyleBackColor = True
@@ -333,9 +335,9 @@ Partial Class Form2
         'btnsave
         '
         Me.btnsave.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnsave.Location = New System.Drawing.Point(141, 16)
+        Me.btnsave.Location = New System.Drawing.Point(165, 16)
         Me.btnsave.Name = "btnsave"
-        Me.btnsave.Size = New System.Drawing.Size(137, 30)
+        Me.btnsave.Size = New System.Drawing.Size(103, 30)
         Me.btnsave.TabIndex = 1
         Me.btnsave.Text = "Save"
         Me.btnsave.UseVisualStyleBackColor = True
@@ -343,9 +345,9 @@ Partial Class Form2
         'btnnew
         '
         Me.btnnew.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnnew.Location = New System.Drawing.Point(3, 16)
+        Me.btnnew.Location = New System.Drawing.Point(30, 16)
         Me.btnnew.Name = "btnnew"
-        Me.btnnew.Size = New System.Drawing.Size(132, 30)
+        Me.btnnew.Size = New System.Drawing.Size(105, 30)
         Me.btnnew.TabIndex = 0
         Me.btnnew.Text = "New"
         Me.btnnew.UseVisualStyleBackColor = True
@@ -355,46 +357,48 @@ Partial Class Form2
         Me.dgnip.HeaderText = "NIP"
         Me.dgnip.Name = "dgnip"
         Me.dgnip.ReadOnly = True
+        Me.dgnip.Width = 150
         '
         'dgnama
         '
         Me.dgnama.HeaderText = "Nama"
         Me.dgnama.Name = "dgnama"
         Me.dgnama.ReadOnly = True
-        Me.dgnama.Width = 105
+        Me.dgnama.Width = 200
         '
         'dgjeniskelamin
         '
         Me.dgjeniskelamin.HeaderText = "Jenis Kelamin"
         Me.dgjeniskelamin.Name = "dgjeniskelamin"
         Me.dgjeniskelamin.ReadOnly = True
-        Me.dgjeniskelamin.Width = 110
+        Me.dgjeniskelamin.Width = 150
         '
         'dgjurusan
         '
         Me.dgjurusan.HeaderText = "Jurusan"
         Me.dgjurusan.Name = "dgjurusan"
         Me.dgjurusan.ReadOnly = True
-        Me.dgjurusan.Width = 110
+        Me.dgjurusan.Width = 150
         '
         'dgmatkul
         '
         Me.dgmatkul.HeaderText = "Mata Kuliah"
         Me.dgmatkul.Name = "dgmatkul"
         Me.dgmatkul.ReadOnly = True
-        Me.dgmatkul.Width = 110
+        Me.dgmatkul.Width = 150
         '
         'dggrade
         '
         Me.dggrade.HeaderText = "GRADE"
         Me.dggrade.Name = "dggrade"
         Me.dggrade.ReadOnly = True
+        Me.dggrade.Width = 60
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(925, 605)
+        Me.ClientSize = New System.Drawing.Size(1094, 605)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)

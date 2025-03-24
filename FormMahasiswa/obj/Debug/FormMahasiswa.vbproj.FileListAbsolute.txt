@@ -9,3 +9,14 @@ c:\users\sandi syaputra\documents\visual studio 2013\Projects\FormMahasiswa\Form
 c:\users\sandi syaputra\documents\visual studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.xml
 c:\users\sandi syaputra\documents\visual studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.pdb
 C:\Users\SANDI SYAPUTRA\documents\visual studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.Form2.resources
+C:\Users\wahyu\OneDrive\ドキュメント\Visual Studio 2013\Projects\FormMahasiswa\FormMahasiswa\bin\Debug\FormMahasiswa.exe.config
+C:\Users\wahyu\OneDrive\ドキュメント\Visual Studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.exe
+C:\Users\wahyu\OneDrive\ドキュメント\Visual Studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.xml
+C:\Users\wahyu\OneDrive\ドキュメント\Visual Studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.pdb
+C:\Users\wahyu\OneDrive\ドキュメント\Visual Studio 2013\Projects\FormMahasiswa\FormMahasiswa\bin\Debug\FormMahasiswa.exe
+C:\Users\wahyu\OneDrive\ドキュメント\Visual Studio 2013\Projects\FormMahasiswa\FormMahasiswa\bin\Debug\FormMahasiswa.pdb
+C:\Users\wahyu\OneDrive\ドキュメント\Visual Studio 2013\Projects\FormMahasiswa\FormMahasiswa\bin\Debug\FormMahasiswa.xml
+C:\Users\wahyu\OneDrive\ドキュメント\Visual Studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.Form1.resources
+C:\Users\wahyu\OneDrive\ドキュメント\Visual Studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.Form2.resources
+C:\Users\wahyu\OneDrive\ドキュメント\Visual Studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.Resources.resources
+C:\Users\wahyu\OneDrive\ドキュメント\Visual Studio 2013\Projects\FormMahasiswa\FormMahasiswa\obj\Debug\FormMahasiswa.vbproj.GenerateResource.Cache
